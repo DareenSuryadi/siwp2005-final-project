@@ -65,8 +65,8 @@ class BulletinAPI(Resource):
         bulletin = Bulletin.objects.get(id=bulletin_id)
         serialized_payload = BulletinSchema().dump(bulletin)
         return serialized_payload, 200
-    #TODO:
-    # CRUD
+    #TODO (update, delete)
+
 
 
         
