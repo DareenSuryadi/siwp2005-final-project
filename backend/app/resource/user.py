@@ -81,6 +81,7 @@ class RegisterAPI(Resource):
             return {'error': 'Request is missing required fields'}, 400
         except NotUniqueError:
             return {'error': 'username address already exists'}, 400
+        
 
 class UserManagementListAPI(Resource):
     @jwt_required()

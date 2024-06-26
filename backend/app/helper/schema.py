@@ -42,8 +42,6 @@ class CourseSchema(ma.Schema):
     user = fields.Nested(UserSchema, required=True, dump_only=True)
     
 
-#TODO: add any schema here
-
 class BulletinSchema(ma.Schema):
     id = fields.String(dump_only=True)
     name = fields.String(required=True)
