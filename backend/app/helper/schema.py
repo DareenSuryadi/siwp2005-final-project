@@ -48,4 +48,27 @@ class BulletinSchema(ma.Schema):
     content = fields.String(required=False)
     # course = fields.Nested(Course, dump_only=True)
 
+class BillingSchema(ma.Schema):
+    id = fields.String(dump_only=True)
+    name = fields.String(required=True)
+    nim = fields.String(required=True)
+    billing = fields.String(required=True)
+    semester = fields.String(required=True)
 
+class AcademicSchema(ma.Schema):
+    id = fields.String(dump_only=True)
+    name = fields.String(required=True)
+    nim = fields.String(required=True)
+    course = fields.String(required=True)
+    type = fields.String(required=True)
+    semester = fields.String(required=True)
+    grade = fields.String(required=True)
+
+class SoftskillSchema(ma.Schema):
+    id = fields.String(dump_only=True)
+    name = fields.String(required=True)
+    nim = fields.String(required=True)
+    title = fields.String(required=True)
+    organizer = fields.String(required=True)
+    year = fields.String(required=True)
+    content = fields.String(required=True)
