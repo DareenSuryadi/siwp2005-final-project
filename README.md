@@ -257,3 +257,6 @@ This API provides backend services using Flask and MongoDB for managing users, c
     - Method: PUT
     - Endpoint: `/softskill/{softskill_id}`
     - Description: Edits the details of a specific softskill by its ID.
+
+![Screenshot 2024-06-30 174348](https://hackmd.io/_uploads/rk_ZD2CU0.png)
+![Screenshot 2024-06-30 174451](https://hackmd.io/_uploads/ryD4D2RLC.png)
