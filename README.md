@@ -138,35 +138,35 @@ This API provides backend services using Flask and MongoDB for managing users, c
 ### Endpoints
 - #### User Endpoints
     - **Register User**
-    -- Method: POST
-    -- Endpoint: `/user`
-    -- Description: Registers a new user
+        - Method: POST
+        - Endpoint: `/user`
+        - Description: Registers a new user
     - **Login Endpoint**
-    -- Method: POST
-    -- Endpoint: `/login`
-    -- Description: Authenticates a user and provides a login token.
+        - Method: POST
+        - Endpoint: `/login`
+        - Description: Authenticates a user and provides a login token.
     
 - #### Courses Endpoints
     - **Add Course**
-    -- Method: POST
-    -- Endpoint: `/courses`
-    -- Description: Adds a new course.
+        - Method: POST
+        - Endpoint: `/courses`
+        - Description: Adds a new course.
     - **Get All Courses**
-    -- Method: GET
-    -- Endpoint: `/courses/{course_id}`
-    -- Description: Retrieves a list of all courses.
+        - Method: GET
+        - Endpoint: `/courses/{course_id}`
+        - Description: Retrieves a list of all courses.
     - **Get Course by ID**
-    -- Method: GET
-    -- Endpoint: `/courses/{course_id}`
-    -- Description: Retrieves details of a specific course by its ID.
+        - Method: GET
+        - Endpoint: `/courses/{course_id}`
+        - Description: Retrieves details of a specific course by its ID.
     - **Delete Course by ID**
-    -- Method: DELETE
-    -- Endpoint: `/courses/{course_id}`
-    -- Description: Deletes a course by its ID.
+        - Method: DELETE
+        - Endpoint: `/courses/{course_id}`
+        - Description: Deletes a course by its ID.
     - **Edit Course by ID**
-    -- Method: PUT
-    -- Endpoint: `/courses/{course_id}`
-    -- Description: Edits the details of a specific course by its ID.
+        - Method: PUT
+        - Endpoint: `/courses/{course_id}`
+        - Description: Edits the details of a specific course by its ID.
 
 - #### Bulletin Endpoints
   - **Add Bulletin**
