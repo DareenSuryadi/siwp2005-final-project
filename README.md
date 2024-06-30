@@ -236,7 +236,7 @@ This API provides backend services using Flask and MongoDB for managing users, c
     - Description: Edits the details of a specific academic by its ID.
 
 
-#### Softskill Endpoints
+- #### Softskill Endpoints
   - **Add Softskill**
     - Method: POST
     - Endpoint: `/softskill`
